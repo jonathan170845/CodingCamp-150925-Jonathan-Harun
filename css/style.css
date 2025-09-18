@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #0d1b2a;
+    color: #e0e1dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #1b263b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #e0e1dd;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-container input, 
+.form-container button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#taskInput {
+    flex: 1;
+}
+
+#dateInput {
+    width: 150px;
+}
+
+#addBtn {
+    background: #5e60ce;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#addBtn:hover {
+    background: #4ea8de;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.actions button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#filterBtn {
+    background: #415a77;
+    color: #fff;
+}
+
+#deleteAllBtn {
+    background: #e63946;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #0d1b2a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background: #415a77;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #1b263b;
+}
+
+.status-done {
+    text-decoration: line-through;
+    color: #76c893;
+}
+
+.action-btn {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.complete-btn {
+    background: #06d6a0;
+    color: #000;
+}
+
+.delete-btn {
+    background: #ef233c;
+    color: #fff;
+}
